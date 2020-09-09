@@ -45,9 +45,7 @@ Results
 Dense random matrix
 =======================================
 
-![Results_random_integer](/result/bm_random_integer.png)
-
-.. image:: https://raw.githubusercontent.com/mverleg/array_storage_benchmark/master/result/bm_random.png
+.. image:: /result/bm_random_integer.png
 
 More methods
 ---------------------------------------
