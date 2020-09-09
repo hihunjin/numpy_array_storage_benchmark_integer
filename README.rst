@@ -1,3 +1,6 @@
+I clone this repo from https://github.com/mverleg/array_storage_benchmark
+---------------------------------------
+
 Array storage benchmark
 ---------------------------------------
 
@@ -42,23 +45,9 @@ Results
 Dense random matrix
 =======================================
 
+![Results_random_integer](/result/bm_random_integer.png)
+
 .. image:: https://raw.githubusercontent.com/mverleg/array_storage_benchmark/master/result/bm_random.png
-
-.. image:: https://raw.githubusercontent.com/mverleg/array_storage_benchmark/master/result/bm_long.png
-
-Sparse random matrix
-=======================================
-
-99% of values are zero, so compression ratios are very good.
-
-.. image:: https://raw.githubusercontent.com/mverleg/array_storage_benchmark/master/result/bm_sparse.png
-
-Real data
-=======================================
-
-Scattering probabilities for hydrogen and carbon monoxide (many doubles between 0 and 1, most close to 0). You can easily overwrite this by your own file in `testdata.csv`.
-
-.. image:: https://raw.githubusercontent.com/mverleg/array_storage_benchmark/master/result/bm_example.png
 
 More methods
 ---------------------------------------

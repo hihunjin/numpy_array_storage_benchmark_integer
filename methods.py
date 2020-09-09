@@ -325,8 +325,8 @@ class MsgPack(TimeArrStorage):
 METHODS = (
 	Csv,
 	CsvGzip,
-	JSON,
-	JSONGzip,
+	# JSON,
+	# JSONGzip,
 	b64Enc,
 	JsonTricks,
 	MsgPack,
